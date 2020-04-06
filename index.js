@@ -89,7 +89,7 @@ var api = new ParseServer({
       //            it will render the url to verify the user.
       //verificationTemplateName: 'email-verification-template-name',
 
-    }
+    },
   }
 });
 // Client-keys like the javascript key or the .NET key are not necessary with parse-server
