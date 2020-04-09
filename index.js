@@ -62,7 +62,7 @@ var api = new ParseServer({
       // Password reset email subject
       passwordResetSubject: 'Password Reset Request for *|appname|*',
       // Password reset email body. This will be ignored when passwordResetTemplateName is used.
-      passwordResetBody: 'Hi *|username|*,\n\nYou requested a password reset for *|appname|*.\n\nClick here to reset it:\n*|link|*',
+      passwordResetBody: 'Hi *|username|*,\n\nYou requested a password reset for *|appname|*.\n\nClick here to reset it:\n *|link|* ',
 
       /****************************************
        * If you are using Mandrill templates: *
